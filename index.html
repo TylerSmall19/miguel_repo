@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator App</title>
+    </head>
+    <body>
+        <h1>
+            Hello World also
+        </h1>
+
+        <p>This is still a world to say hello</p>
+
+        <button>Hello</button>
+
+        <label for='num1'>Enter Your First Number</label>
+        <input id='num1' type='month' value='0' />
+
+        <script>
+            var isConfirmed = confirm('Confirm?');
+            var count = 1;
+
+            while (!isConfirmed) {
+                if (count >= 3) {
+                    alert('Fine. You win.');
+                    break;
+                }
+
+                // Same Thing
+                // count = count + 1;
+                count++;
+
+                alert('You didn\'t confirm!');
+                isConfirmed = confirm('Wanna confirm yet?')
+
+                console.log(count);
+            }
+        </script>
+    </body>
+</html>
